@@ -7,14 +7,14 @@ export const appointmentData = [
     doctor: "Dr. Hazel Valery",
   },
   {
-    id: 2,
+    id:2,
     patient: "Harry Coming",
     day: new Date().toISOString().slice(0,10),
     consulted: false,
     doctor: "Dr. Jessica White",
   },
   {
-    id: 3,
+    id:3,
     patient: "Aaron Black",
     day: new Date().toISOString().slice(0,10),
     consulted: true,
