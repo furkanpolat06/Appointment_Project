@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import { TiDelete } from "react-icons/ti";
 
 const AppointmentList = ({ apps }) => {
-  console.log("appointment ", apps);
+  // console.log("appointment ", apps);
+  const handleDelete=()=>{}
   return (
     <Container className="p-2">
       <h3 className="display-6 mb-2" style={{ color: "rgb(166, 18, 189)" }}>
@@ -19,7 +20,7 @@ const AppointmentList = ({ apps }) => {
             </Col>
             <Col>{day}</Col>
             <Col  className="text-center m-auto">
-              <TiDelete className="text-danger fs-1" id="tidelete" />
+              <TiDelete className="text-danger fs-1" id="tidelete" onClick={handleDelete} />
             </Col>
           </Row>
         </div>
