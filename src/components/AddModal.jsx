@@ -18,7 +18,7 @@ function AddModal({ show, handleClose, apps, setApps, drName })
       consulted:false,
       doctor : drName,
     }, ])
-
+    setName("")
     handleClose()
   }
   return (
