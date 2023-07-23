@@ -1,17 +1,14 @@
-import Container from "react-bootstrap/Container"
-import { doctorData } from "../helper/data"
-import { Col, Row } from "react-bootstrap"
-import AddModal from "./AddModal"
-import { useState } from 'react';
+import Container from "react-bootstrap/Container";
+import { doctorData } from "../helper/data";
+import { Col, Row } from "react-bootstrap";
+import AddModal from "./AddModal";
+import { useState } from "react";
 
-
-
-const Doctors = () => {
+const Doctors = ({ apps, setApps }) => {
   const [show, setShow] = useState(false);
-  const handleImgClick=()=>{
-    setShow(true)
-  }
-
+  const handleImgClick = () => {
+    setShow(true);
+  };
 
   return (
     <Container className="p-2">
@@ -19,20 +16,22 @@ const Doctors = () => {
         Our Doctors
       </h3>
       <Row className="justify-content-center">
-      {doctorData.map(({id, img, dep, name})=>(
-        <Col key={id} xs={6} sm={4} md={3}>
-          <img src={img} alt={name} className="img-thumbnail doctor-img" onClick={handleImgClick}/>
-          <h5>{name}</h5>
-          <h6>{dep}</h6>
-
-        </Col>
-      ))}
-        
+        {doctorData.map(({ id, img, dep, name }) => (
+          <Col key={id} xs={6} sm={4} md={3}>
+            <img
+              src={img}
+              alt={name}
+              className="img-thumbnail doctor-img"
+              onClick={handleImgClick}
+            />
+            <h5>{name}</h5>
+            <h6>{dep}</h6>
+          </Col>
+        ))}
       </Row>
-      <AddModal show={show} handleClose={()=>setShow(false)}/>
-      
+      <AddModal show={show} handleClose={() => setShow(false)} apps={apps} setApps={setApps}/>
     </Container>
-  )
-}
+  );
+};
 
-export default Doctors
+export default Doctors;

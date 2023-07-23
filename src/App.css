@@ -39,3 +39,8 @@
   padding: 0.5rem;
   transform: translate(-50%, -50%);
 }
+#tidelete:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
