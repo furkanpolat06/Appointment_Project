@@ -2,13 +2,14 @@ import { useState } from "react"
 import AppointmentList from "../components/AppointmentList"
 import Doctors from "../components/Doctors"
 import { appointmentData } from "../helper/data"
+import "../App.css"
 
 const Home = () => {
   const [appointments, setAppointments]=useState(appointmentData)
   console.log(appointments);
   return (
     <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">CLARUS HOSPITAL</h1>
+      <h1 id="title" className="display-3 text-danger ">PhysioWeb</h1>
       <Doctors apps={appointments} setApps={setAppointments} />
       <AppointmentList apps={appointments}setApps={setAppointments}/>
     </main>

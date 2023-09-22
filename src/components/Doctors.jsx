@@ -14,7 +14,7 @@ const Doctors = ({ apps, setApps }) => {
   return (
     <Container className="p-2">
       <h3 className="display-6 mb-3" style={{ color: "rgb(166, 18, 189)" }}>
-        Our Doctors
+        Our Physiothreapist
       </h3>
       <Row className="justify-content-center">
         {doctorData.map(({ id, img, dep, name }) => (
