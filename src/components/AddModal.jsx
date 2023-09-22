@@ -33,7 +33,8 @@ function AddModal({ show, handleClose, apps, setApps, drName })
               <Form.Label>Patient Name</Form.Label>
               <Form.Control type="text" placeholder="Enter your name"
               onChange={(e)=>setName(e.target.value)}
-              value={name} />
+              value={name}
+              required/>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -42,7 +43,8 @@ function AddModal({ show, handleClose, apps, setApps, drName })
               type="date" 
               placeholder="Date" 
               onChange={(e)=>setDate(e.target.value)}
-              value={date} />
+              value={date}
+              required />
             </Form.Group>
             <div className="text-center">
               <Button variant="primary" type="submit" className="me-2">
