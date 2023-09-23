@@ -10,6 +10,8 @@
   transition: transform 0.5s;
   border-radius: 1rem;
   max-height: 130px;
+
+
 }
 .doctor-img:hover {
   transform: scale(1.05);
@@ -31,11 +33,11 @@
 }
 
 .consulted {
-  border-left: 1rem solid rgb(166, 18, 189);
+  border-left: 1rem solid #2bd8c1;
 }
 .consulted::after {
   content: "CONSULTED";
-  background-color: rgb(166, 18, 189);
+  background-color: rgba(240, 31, 16, 0.87);
   color: white;
   font-size: 2rem;
   border-radius: 1rem;
@@ -48,4 +50,8 @@
 #tidelete:hover{
   transform: scale(1.2);
 
+}
+.date{
+  font-weight: 500;
+  font-size: larger;
 }
