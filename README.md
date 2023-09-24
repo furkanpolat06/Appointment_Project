@@ -1,7 +1,7 @@
 # PhysioWeb AppointmentApp
 
-## Project Description
-PhysioWeb is a simple web application that helps physiotherapists manage their appointments and interact with their patients. It provides an easy way to view, add, edit, and delete appointments.
+## Project Web Page
+https://appointment-fizyoweb.netlify.app/
 
 ## Technologies Used
 - React: We used React to build the user interface of our application.
