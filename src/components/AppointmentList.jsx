@@ -14,7 +14,7 @@ const AppointmentList = ({ apps, setApps }) => {
 
   return (
     <Container className="p-3">
-      <h3 className="display-6 mb-2" style={{ color: "rgb(166, 18, 189)" }}>
+      <h3 className="display-6 mb-2 " style={{ color: "rgb(166, 18, 189)" }}>
         Appointment List
       </h3>
       {apps.length < 1 && <img src="./img/appointment.jpg" width="70%" />}
