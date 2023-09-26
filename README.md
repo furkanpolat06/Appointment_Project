@@ -26,6 +26,10 @@ https://appointment-fizyoweb.netlify.app/
 4. **Add Appointment Modal**
    - A pop-up window for adding new appointments.
    - Enter the patient's name, date, and time for the appointment.
+     
+## Screenshots
+
+![Film Rating Project](film-info.gif)
 
 ## How to Use
 1. To get started, run `npm install` and then `npm start` to launch the application.
