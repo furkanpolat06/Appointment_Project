@@ -29,7 +29,8 @@ https://appointment-fizyoweb.netlify.app/
      
 ## Screenshots
 
-![Film Rating Project](film-info.gif)
+![apple-products-app3](https://github.com/furkanpolat06/Appointment_Project/assets/118616075/407ed4f7-a5d4-4570-ad63-6af0e6b3a410)
+
 
 ## How to Use
 1. To get started, run `npm install` and then `npm start` to launch the application.
