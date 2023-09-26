@@ -29,7 +29,8 @@ https://appointment-fizyoweb.netlify.app/
      
 ## Screenshots
 
-![apple-products-app3](https://github.com/furkanpolat06/Appointment_Project/assets/118616075/407ed4f7-a5d4-4570-ad63-6af0e6b3a410)
+![appointment-project](https://github.com/furkanpolat06/Appointment_Project/assets/118616075/bad38aae-95f1-4400-9a85-46f3f3869e0f)
+
 
 
 ## How to Use
